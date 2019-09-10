@@ -3,15 +3,16 @@ name: CI
 on: [push]
 
 jobs:
-  build:
+  check:
 
     runs-on: ubuntu-latest
-    
     steps:
     - uses: actions/checkout@v1
-    - name: Run a one-line script
-      run: echo Hello, world!
-    - name: Run a multi-line script
-      run: |
-        echo Add other actions to build,
-        echo test, and deploy your project.
+    - name: yarn install
+      run:  sudo apt-get update && sudo apt-get install yarn
+    - name: package install
+      run:  yarn
+    - name: lint
+      run:  yarn lint
+    - name: test
+      run:  yarn test:headless
