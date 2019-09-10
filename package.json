@@ -1,0 +1,20 @@
+{
+  "private": true,
+  "version": "0.0.0",
+  "name": "example-typescript",
+  "devDependencies": {
+    "@types/jest": "^24.0.0",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.0.0",
+    "tslint": "^5.20.0",
+    "typescript": "^3.5.3"
+  },
+  "scripts": {
+    "lint": "tslint -p ./tslint.json",
+    "lint:output": "tslint -p ./tslint.json -o dist/tslint.xml --force --format pmd",
+    "test": "jest",
+    "test:w": "jest --watch",
+    "test:wa": "jest --watchAll",
+    "test:cov": "jest --coverage"
+  }
+}
