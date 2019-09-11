@@ -8,6 +8,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v1
+    - uses: actions/setup-java@v1
+      with:
+        java-version: '9.0.4' // The JDK version to make available on the path. Takes a whole or semver Jdk version, or 1.x syntax (e.g. 1.8 => Jdk 8.x)
+        architecture: x64 // (x64 or x86) - defaults to x64
     - name: yarn install
       run:  sudo apt-get update && sudo apt-get install yarn
     - name: package install
@@ -16,18 +20,7 @@ jobs:
       run:  yarn lint:output
     - name: test
       run:  yarn test:cov
-    - name: sonar install
-      run: |
-        export SONAR_SCANNER_VERSION=4.0.0.1744
-        export SONAR_SCANNER_HOME=$HOME/.sonar/sonar-scanner-$SONAR_SCANNER_VERSION-linux
-        rm -rf $SONAR_SCANNER_HOME
-        mkdir -p $SONAR_SCANNER_HOME
-        curl -sSLo $HOME/.sonar/sonar-scanner.zip https://binaries.sonarsource.com/Distribution/sonar-scanner-cli/sonar-scanner-cli-$SONAR_SCANNER_VERSION-linux.zip
-        unzip $HOME/.sonar/sonar-scanner.zip -d $HOME/.sonar/
-        rm $HOME/.sonar/sonar-scanner.zip
-        export PATH=$SONAR_SCANNER_HOME/bin:$PATH
-        export SONAR_SCANNER_OPTS="-server"
     - name: sonar scan
       env:
         SONAR_KEY: ${{ secrets.SONAR_KEY }}
-      run: sonar-scanner -Dsonar.login=$SONAR_KEY
+      run: yarn sonarqube-scanner -Dsonar.login=$SONAR_KEY
