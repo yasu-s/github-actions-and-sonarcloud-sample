@@ -23,4 +23,5 @@ jobs:
     - name: sonar scan
       env:
         SONAR_KEY: ${{ secrets.SONAR_KEY }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: yarn sonarqube-scanner -Dsonar.login=$SONAR_KEY
