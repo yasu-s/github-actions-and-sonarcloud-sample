@@ -27,4 +27,7 @@ jobs:
         rm $HOME/.sonar/sonar-scanner.zip
         export PATH=$SONAR_SCANNER_HOME/bin:$PATH
         export SONAR_SCANNER_OPTS="-server"
-        
+    - name: sonar scan
+      env:
+        SONAR_KEY: ${{ secrets.SONAR_KEY }}
+      run: sonar-scanner -Dsonar.login=$SONAR_KEY
