@@ -11,7 +11,7 @@
   },
   "scripts": {
     "lint": "tslint -p ./tslint.json",
-    "lint:output": "tslint -p ./tslint.json -o dist/tslint.xml --force --format pmd",
+    "lint:output": "tslint -p ./tslint.json -t json -o dist/tslint.json --force",
     "test": "jest",
     "test:w": "jest --watch",
     "test:wa": "jest --watchAll",
