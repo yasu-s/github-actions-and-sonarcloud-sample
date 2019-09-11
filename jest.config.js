@@ -17,5 +17,6 @@ module.exports = {
   "testMatch": [
     "**/test/*.+(ts|tsx|js)"
   ],
-  "resetMocks": true
+  "resetMocks": true,
+  "testResultsProcessor": "jest-sonar-reporter"
 };
