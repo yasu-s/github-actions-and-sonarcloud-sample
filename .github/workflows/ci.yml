@@ -13,6 +13,6 @@ jobs:
     - name: package install
       run:  yarn
     - name: lint
-      run:  yarn lint
+      run:  yarn lint:output
     - name: test
       run:  yarn test:cov
