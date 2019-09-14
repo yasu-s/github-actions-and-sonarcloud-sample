@@ -13,7 +13,7 @@ declare global {
 }
 
 Object.prototype.equalTo = function(target: object) {
-  if (target === null || target === undefined) return false;
+  if (target === null || target === undefined) { return false; }
   // JSON文字列化して比較
   const sourceJson = JSON.stringify(this);
   const targetJson = JSON.stringify(target);
