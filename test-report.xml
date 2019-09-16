@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+  <file path="D:\github\github-actions-and-sonarcloud\test\alias-linq-test.ts">
+    <testCase name="Array.select Array.length &gt; 0" duration="0"/>
+    <testCase name="Array.select Array.length = 0" duration="0"/>
+    <testCase name="Array.where Array.length &gt; 0" duration="0"/>
+    <testCase name="Array.where Array.length = 0" duration="0"/>
+    <testCase name="Array.all Array.length &gt; 0, ok" duration="0"/>
+    <testCase name="Array.all Array.length &gt; 0, ng" duration="0"/>
+    <testCase name="Array.all Array.length = 0" duration="0"/>
+    <testCase name="Array.skip ok" duration="16"/>
+    <testCase name="Array.take ok" duration="0"/>
+  </file>
+  <file path="D:\github\github-actions-and-sonarcloud\test\toggle-test.ts">
+    <testCase name="Boolean.toggle true -&gt; false" duration="0"/>
+    <testCase name="Boolean.toggle false -&gt; true" duration="0"/>
+  </file>
+  <file path="D:\github\github-actions-and-sonarcloud\test\to-array-test.ts">
+    <testCase name="Map.toArray key = number, value = string" duration="0"/>
+  </file>
+</testExecutions>
