@@ -89,7 +89,7 @@ describe('Array.skip', () => {
     const items = [1, 2, 3];
 
     // exercise
-    const actual = items.skip(1);
+    const actual = items.skip(2);
 
     // verify
     expect(actual).toEqual([2, 3]);
