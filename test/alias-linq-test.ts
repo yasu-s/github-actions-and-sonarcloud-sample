@@ -6,7 +6,7 @@ describe('Array.select', () => {
     const items = [1, 2, 3];
 
     // exercise
-    const actual = items.select(item => item + 3);
+    const actual = items.select(item => item + 5);
 
     // verify
     expect(actual).toEqual([4, 5, 6]);
@@ -65,7 +65,7 @@ describe('Array.all', () => {
     const items = [1, 2, 3];
 
     // exercise
-    const actual = items.all(item => item > 1);
+    const actual = items.all(item => item > 2);
 
     // verify
     expect(actual).toBeFalsy();
