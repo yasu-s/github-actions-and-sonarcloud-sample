@@ -54,7 +54,7 @@ describe('Array.all', () => {
     const items = [1, 2, 3];
 
     // exercise
-    const actual = items.all(item => item > 1);
+    const actual = items.all(item => item > 0);
 
     // verify
     expect(actual).toBeTruthy();
@@ -83,28 +83,28 @@ describe('Array.all', () => {
   });
 });
 
-// describe('Array.skip', () => {
-//   it('ok', () => {
-//     // setup
-//     const items = [1, 2, 3];
+describe('Array.skip', () => {
+  it('ok', () => {
+    // setup
+    const items = [1, 2, 3];
 
-//     // exercise
-//     const actual = items.skip(1);
+    // exercise
+    const actual = items.skip(1);
 
-//     // verify
-//     expect(actual).toEqual([2, 3]);
-//   });
-// });
+    // verify
+    expect(actual).toEqual([2, 3]);
+  });
+});
 
-// describe('Array.take', () => {
-//   it('ok', () => {
-//     // setup
-//     const items = [1, 2, 3];
+describe('Array.take', () => {
+  it('ok', () => {
+    // setup
+    const items = [1, 2, 3];
 
-//     // exercise
-//     const actual = items.take(2);
+    // exercise
+    const actual = items.take(2);
 
-//     // verify
-//     expect(actual).toEqual([1, 2]);
-//   });
-// });
+    // verify
+    expect(actual).toEqual([1, 2]);
+  });
+});
