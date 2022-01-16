@@ -6,7 +6,7 @@ describe('Array.select', () => {
     const items = [1, 2, 3];
 
     // exercise
-    const actual = items.select(item => item + 3);
+    const actual = items.select(item => item + 1);
 
     // verify
     expect(actual).toEqual([4, 5, 6]);
