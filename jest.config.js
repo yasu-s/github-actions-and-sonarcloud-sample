@@ -18,5 +18,11 @@ module.exports = {
     "**/test/*.+(ts|tsx|js)"
   ],
   "resetMocks": true,
-  "testResultsProcessor": "jest-sonar-reporter"
+  reporters: [
+    'default',
+    ['jest-sonar', {
+      outputDirectory: '.',
+      outputName: 'test-report.xml'
+    }]
+  ]
 };
