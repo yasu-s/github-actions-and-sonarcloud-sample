@@ -38,16 +38,19 @@ jobs:
         SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
     - name: Archive code coverage results
       uses: actions/upload-artifact@v2
+      if: ${{ always() }}
       with:
           name: code-coverage-report
           path: coverage
     - name: Archive test results
       uses: actions/upload-artifact@v2
+      if: ${{ always() }}
       with:
           name: test-report
           path: test-report.xml
     - name: Archive lint results
       uses: actions/upload-artifact@v2
+      if: ${{ always() }}
       with:
           name: lint-report
           path: dist/tslint.json
