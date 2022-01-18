@@ -1,5 +1,16 @@
 import '../src/ext/array/alias-linq';
 
+it('Array.length', () => {
+  // setup
+  const items = [1, 2, 3];
+
+  // exercise
+  const actual = items.select(item => item + 3);
+
+  // verify
+  expect(actual).toEqual([4, 5, 6]);
+});
+
 describe('Array.select', () => {
   it('Array.length > 0', () => {
     // setup
