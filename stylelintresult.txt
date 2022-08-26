@@ -1,6 +1,0 @@
-
-src/assets/style.css
- 1:1  ✖  Unexpected unknown type selector "aaa"  selector-type-no-unknown
-
-1 problem (1 error, 0 warnings)
-
