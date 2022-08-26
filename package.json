@@ -6,12 +6,18 @@
     "@types/jest": "^27.4.0",
     "jest": "^27.4.7",
     "jest-sonar": "^0.2.12",
+    "prettier": "^2.7.1",
+    "stylelint": "^14.11.0",
+    "stylelint-config-prettier": "^9.0.3",
+    "stylelint-config-standard": "^28.0.0",
+    "stylelint-prettier": "^2.0.0",
     "ts-jest": "^27.1.3",
     "tslint": "^6.1.3",
     "typescript": "^4.5.4"
   },
   "scripts": {
     "lint": "tslint -p ./tslint.json",
+    "lint:style": "stylelint -o stylelintresult.json -f json ./src/assets/**/*.css",
     "lint:output": "tslint -p ./tslint.json -t json -o dist/tslint.json --force",
     "test": "jest",
     "test:w": "jest --watch",

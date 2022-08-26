@@ -7,22 +7,22 @@
     "errored": true,
     "warnings": [
       {
-        "line": 1,
+        "line": 2,
         "column": 1,
-        "endLine": 1,
+        "endLine": 2,
         "endColumn": 2,
         "rule": "prettier/prettier",
         "severity": "error",
-        "text": "Unknown rule prettier/prettier."
+        "text": "Replace \"width:\" with \"··width:·\" (prettier/prettier)"
       },
       {
-        "line": 2,
-        "column": 7,
-        "endLine": 2,
-        "endColumn": 8,
-        "rule": "declaration-colon-space-after",
+        "line": 3,
+        "column": 1,
+        "endLine": 3,
+        "endColumn": 2,
+        "rule": "prettier/prettier",
         "severity": "error",
-        "text": "Expected single space after \":\" with a single-line declaration (declaration-colon-space-after)"
+        "text": "Insert \"··\" (prettier/prettier)"
       },
       {
         "line": 3,
@@ -41,24 +41,6 @@
         "rule": "selector-type-no-unknown",
         "severity": "error",
         "text": "Unexpected unknown type selector \"aaa\" (selector-type-no-unknown)"
-      },
-      {
-        "line": 2,
-        "column": 1,
-        "endLine": 2,
-        "endColumn": 14,
-        "rule": "indentation",
-        "severity": "error",
-        "text": "Expected indentation of 2 spaces (indentation)"
-      },
-      {
-        "line": 3,
-        "column": 1,
-        "endLine": 3,
-        "endColumn": 13,
-        "rule": "indentation",
-        "severity": "error",
-        "text": "Expected indentation of 2 spaces (indentation)"
       }
     ]
   },
@@ -70,22 +52,22 @@
     "errored": true,
     "warnings": [
       {
-        "line": 1,
+        "line": 2,
         "column": 1,
-        "endLine": 1,
+        "endLine": 2,
         "endColumn": 2,
         "rule": "prettier/prettier",
         "severity": "error",
-        "text": "Unknown rule prettier/prettier."
+        "text": "Replace \"width:\" with \"··width:·\" (prettier/prettier)"
       },
       {
-        "line": 2,
-        "column": 7,
-        "endLine": 2,
-        "endColumn": 8,
-        "rule": "declaration-colon-space-after",
+        "line": 3,
+        "column": 1,
+        "endLine": 3,
+        "endColumn": 2,
+        "rule": "prettier/prettier",
         "severity": "error",
-        "text": "Expected single space after \":\" with a single-line declaration (declaration-colon-space-after)"
+        "text": "Insert \"··\" (prettier/prettier)"
       },
       {
         "line": 3,
@@ -95,24 +77,6 @@
         "rule": "property-no-unknown",
         "severity": "error",
         "text": "Unexpected unknown property \"hoege\" (property-no-unknown)"
-      },
-      {
-        "line": 2,
-        "column": 1,
-        "endLine": 2,
-        "endColumn": 14,
-        "rule": "indentation",
-        "severity": "error",
-        "text": "Expected indentation of 2 spaces (indentation)"
-      },
-      {
-        "line": 3,
-        "column": 1,
-        "endLine": 3,
-        "endColumn": 13,
-        "rule": "indentation",
-        "severity": "error",
-        "text": "Expected indentation of 2 spaces (indentation)"
       }
     ]
   }
