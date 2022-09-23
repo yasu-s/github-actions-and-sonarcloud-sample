@@ -1,5 +1,5 @@
-export class Hoge2 {
-  log() {
+export class Hoge55 {
+  log1() {
     console.log('aaa');
     console.log('bbb');
     console.log('ccc');
