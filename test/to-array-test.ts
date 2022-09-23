@@ -15,5 +15,17 @@ describe('Map.toArray', () => {
     expect(actual.length).toBe(2);
     expect(actual[0].key).toBe(1);
     expect(actual[0].value).toBe('Alex');
+    expect(actual.length).toBe(2);
+    expect(actual[0].key).toBe(1);
+    expect(actual[0].value).toBe('Alex');
+    expect(actual.length).toBe(2);
+    expect(actual[0].key).toBe(1);
+    expect(actual[0].value).toBe('Alex');
+    expect(actual.length).toBe(2);
+    expect(actual[0].key).toBe(1);
+    expect(actual[0].value).toBe('Alex');
+    expect(actual.length).toBe(2);
+    expect(actual[0].key).toBe(1);
+    expect(actual[0].value).toBe('Alex');
   });
 });
