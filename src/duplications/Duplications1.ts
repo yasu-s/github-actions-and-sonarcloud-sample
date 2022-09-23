@@ -1,4 +1,7 @@
 export class Hoge2 {
+
+
+
   log() {
     console.log('aaa');
     console.log('bbb');

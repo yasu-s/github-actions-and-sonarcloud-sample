@@ -75,5 +75,26 @@ export class Hoge2 {
     console.log('ccc');
     console.log('ddd');
     console.log('eee');
+    console.log('bbb');
+    console.log('ccc');
+    console.log('ddd');
+    console.log('eee');
+    console.log('bbb');
+    console.log('ccc');
+    console.log('ddd');
+    console.log('eee');
+    console.log('bbb');
+    console.log('ccc');
+    console.log('ddd');
+    console.log('eee');
+    console.log('bbb');
+    console.log('ccc');
+    console.log('ddd');
+    console.log('eee');
+    console.log('eee');
+    console.log('bbb');
+    console.log('ccc');
+    console.log('ddd');
+    console.log('eee');
   }
 }
