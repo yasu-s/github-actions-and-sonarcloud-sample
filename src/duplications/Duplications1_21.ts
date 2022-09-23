@@ -77,3 +77,83 @@ export class Hoge2 {
     console.log('eee');
   }
 }
+
+export class Hoge3 {
+  log() {
+    console.log('aaa');
+    console.log('bbb');
+    console.log('ccc');
+    console.log('ddd');
+    console.log('eee');
+    console.log('aaa');
+    console.log('bbb');
+    console.log('ccc');
+    console.log('ddd');
+    console.log('eee');
+    console.log('aaa');
+    console.log('bbb');
+    console.log('ccc');
+    console.log('ddd');
+    console.log('eee');
+    console.log('aaa');
+    console.log('bbb');
+    console.log('ccc');
+    console.log('ddd');
+    console.log('eee');
+    console.log('aaa');
+    console.log('bbb');
+    console.log('ccc');
+    console.log('ddd');
+    console.log('eee');
+    console.log('aaa');
+    console.log('bbb');
+    console.log('ccc');
+    console.log('ddd');
+    console.log('eee');
+    console.log('aaa');
+    console.log('bbb');
+    console.log('ccc');
+    console.log('ddd');
+    console.log('eee');
+    console.log('aaa');
+    console.log('bbb');
+    console.log('ccc');
+    console.log('ddd');
+    console.log('eee');
+    console.log('aaa');
+    console.log('bbb');
+    console.log('ccc');
+    console.log('ddd');
+    console.log('eee');
+    console.log('aaa');
+    console.log('bbb');
+    console.log('ccc');
+    console.log('ddd');
+    console.log('eee');
+    console.log('aaa');
+    console.log('bbb');
+    console.log('ccc');
+    console.log('ddd');
+    console.log('eee');
+    console.log('aaa');
+    console.log('bbb');
+    console.log('ccc');
+    console.log('ddd');
+    console.log('eee');
+    console.log('aaa');
+    console.log('bbb');
+    console.log('ccc');
+    console.log('ddd');
+    console.log('eee');
+    console.log('aaa');
+    console.log('bbb');
+    console.log('ccc');
+    console.log('ddd');
+    console.log('eee');
+    console.log('aaa');
+    console.log('bbb');
+    console.log('ccc');
+    console.log('ddd');
+    console.log('eee');
+  }
+}
