@@ -11,6 +11,23 @@ declare global {
   }
 }
 
+//aaa
+//bbb
+//aaa
+//bbb
+//aaa
+//bbb
+//aaa
+//bbb
+//aaa
+//bbb
+//aaa
+//bbb
+//aaa
+//bbb
+//aaa
+//bbb
+
 Boolean.prototype.toggle = function(): boolean {
   return !(<boolean>this);
 };

@@ -15,6 +15,18 @@ declare global {
 //bbb
 //aaa
 //bbb
+//aaa
+//bbb
+//aaa
+//bbb
+//aaa
+//bbb
+//aaa
+//bbb
+//aaa
+//bbb
+//aaa
+//bbb
 
 Map.prototype.toArray = function<K, V>(): Array<{ key: K, value: V }> {
   const map = this as Map<K, V>;
