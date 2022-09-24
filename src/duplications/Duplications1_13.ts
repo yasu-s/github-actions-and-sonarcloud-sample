@@ -12,9 +12,31 @@ export class Hoge2 {
     console.log('eee');
     console.log('ccc');
     console.log('ddd');
-    console.log('eee');
-    console.log('ccc');
-    console.log('ddd');
-    console.log('eee');
   }
+
+  log2() {
+    () => {
+      console.log('aaa');
+      () => {
+        console.log('aaa');
+        () => {
+          console.log('aaa');
+          () => {
+            console.log('aaa');
+            () => {
+              console.log('aaa');
+              () => {
+                console.log('aaa');
+                () => {
+                  console.log('aaa');
+                  () => {
+                    console.log('aaa');
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
 }
